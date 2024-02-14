@@ -4,6 +4,7 @@
   "description": "belajar membuat web serice",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +22,10 @@
   "homepage": "https://github.com/Gopartner/web-service-#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "firebase-admin": "^12.0.0"
+    "firebase-admin": "^12.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
